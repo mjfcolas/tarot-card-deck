@@ -1,0 +1,26 @@
+{
+  "name": "tarot-card-deck",
+  "version": "1.0.0",
+  "description": "A card deck including tarot card",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "jest --config ./jest.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.li212.fr/cards/tarot-card-deck.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.8",
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7",
+    "@babel/preset-typescript": "^7.16.7"
+  }
+}

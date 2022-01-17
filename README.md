@@ -1,2 +1,2 @@
-# tarot-card-deck
+# deck
 
