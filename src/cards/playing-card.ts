@@ -1,10 +1,10 @@
-export type CardIdentifier = string
+export type PlayingCardIdentifier = string
 
 export type PlayingCard =
-    { identifier: CardIdentifier, value: number, suit: Suit, type: PlayingCardType.CLASSIC } |
-    { identifier: CardIdentifier, face: Face, suit: Suit, type: PlayingCardType.FACE } |
-    { identifier: CardIdentifier, value: number, type: PlayingCardType.TRUMP } |
-    { identifier: CardIdentifier, type: PlayingCardType.JOKER }
+    { identifier: PlayingCardIdentifier, value: number, suit: Suit, type: PlayingCardType.CLASSIC } |
+    { identifier: PlayingCardIdentifier, face: Face, suit: Suit, type: PlayingCardType.FACE } |
+    { identifier: PlayingCardIdentifier, value: number, type: PlayingCardType.TRUMP } |
+    { identifier: PlayingCardIdentifier, type: PlayingCardType.JOKER }
 
 export enum Face {
     J = "J",
