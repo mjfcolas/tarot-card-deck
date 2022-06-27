@@ -1,6 +1,7 @@
 import {Face, PlayingCard, PlayingCardType, Suit} from "./playing-card";
 
 export const JOKER: PlayingCard = {identifier: "JOK", type: PlayingCardType.JOKER}
+export const EXCUSE: PlayingCard = {identifier: "EXC", type: PlayingCardType.EXCUSE}
 
 export const DIAMOND_1: PlayingCard = {identifier: "1D", value: 1, suit: Suit.DIAMONDS, type: PlayingCardType.CLASSIC}
 export const DIAMOND_2: PlayingCard = {identifier: "2D", value: 2, suit: Suit.DIAMONDS, type: PlayingCardType.CLASSIC}

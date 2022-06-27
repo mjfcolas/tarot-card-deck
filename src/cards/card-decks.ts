@@ -27,7 +27,7 @@ import {
     DIAMOND_C,
     DIAMOND_J,
     DIAMOND_K,
-    DIAMOND_Q,
+    DIAMOND_Q, EXCUSE,
     HEART_1,
     HEART_10,
     HEART_2,
@@ -169,5 +169,5 @@ export const DECK_78: readonly PlayingCard[] = [...DECK_52,
     TRUMP_19,
     TRUMP_20,
     TRUMP_21,
-    JOKER
+    EXCUSE
 ];
