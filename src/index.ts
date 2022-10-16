@@ -1,5 +1,5 @@
 export {DECK_32, DECK_52, DECK_54, DECK_78} from './cards/card-decks'
-export {PlayingCard, PlayingCardType, Suit, Face} from './cards/playing-card'
+export {PlayingCard, PlayingCardType, Suit, Face, PlayingCardIdentifier} from './cards/playing-card'
 
 export {
     CLUB_1,
