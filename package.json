@@ -1,6 +1,6 @@
 {
   "name": "tarot-card-deck",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A card deck including tarot card",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
